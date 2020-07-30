@@ -8,4 +8,4 @@ try:
 except socket.error as err_msg:
   print ("%s: %s" %(remote_host, err_msg))
 if __name__ == '__main__':
-get_remote_machine_info()
+  get_remote_machine_info()
