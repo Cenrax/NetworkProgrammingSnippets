@@ -14,6 +14,6 @@ Recievers's socket buffer mean how much data can be in flight without acknowledg
 
 The code for customizing the data buffer size implemented in python can be found <href>https://github.com/Cenrax/NetworkProgrammingSnippets/blob/master/ClientServer/Custom%20Buffer%20size.py</href>
 
-<bold>What is Socket? Do you know </bold> 
+**What is Socket? Do you know**
 
 A socket is a sofware program which act as the endpoint between two programs running over a network. A scocket is a software level concept and it is identified by the IP Address.
