@@ -5,4 +5,4 @@ def test_socket_timeout():
   s.settimeout(100)
   print ("Current socket timeout: %s" %s.gettimeout())
 if __name__ == '__main__':
-test_socket_timeout()
+  test_socket_timeout()
