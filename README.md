@@ -14,9 +14,14 @@ Recievers's socket buffer mean how much data can be in flight without acknowledg
 
 The code for customizing the data buffer size implemented in python can be found <href>https://github.com/Cenrax/NetworkProgrammingSnippets/blob/master/ClientServer/Custom%20Buffer%20size.py</href>
 
-**What is Socket? Do you know**
+**What is Socket? Do you know ?**
+
 Stream sockets allow processes to communicate using TCP. A stream socket provides bidirectional, reliable, sequenced, and unduplicated flow of data with no record boundaries. After the connection has been established, data can be read from and written to these sockets as a byte stream. The socket type is SOCK_STREAM.
 
 Datagram sockets allow processes to use UDP to communicate. A datagram socket supports bidirectional flow of messages. A process on a datagram socket can receive messages in a different order from the sending sequence and can receive duplicate messages. Record boundaries in the data are preserved. The socket type is SOCK_DGRAM.
 
 Raw sockets provide access to ICMP. These sockets are normally datagram oriented, although their exact characteristics are dependent on the interface provided by the protocol. Raw sockets are not for most applications. They are provided to support developing new communication protocols or for access to more esoteric facilities of an existing protocol. Only superuser processes can use raw sockets. The socket type is SOCK_RAW
+
+***Innovation areas in socket***
+With the advancement of technology and with the embedding of SDN and IP Addresses innovation in socket is highly required in my opinion. Can we thing of a intelligent socket?
+
