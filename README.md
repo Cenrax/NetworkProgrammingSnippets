@@ -1,5 +1,5 @@
 # Network Programming Snippets
-These are the basic code snippets which I am learning to enhance my knowledge in network programming using python. Network programming is very important in respect of today's world. Network Programming is very important in new network.
+These are the basic code snippets which I am learning to enhance my knowledge in network programming using python. Network programming is very important in respect of today's world. Network Programming is very important in new network
 
 ## Network Programming
 Computer network programming involves writing computer programs that enable processes to communicate with each other across a computer network.
