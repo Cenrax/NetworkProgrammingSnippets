@@ -23,5 +23,5 @@ Datagram sockets allow processes to use UDP to communicate. A datagram socket su
 Raw sockets provide access to ICMP. These sockets are normally datagram oriented, although their exact characteristics are dependent on the interface provided by the protocol. Raw sockets are not for most applications. They are provided to support developing new communication protocols or for access to more esoteric facilities of an existing protocol. Only superuser processes can use raw sockets. The socket type is SOCK_RAW
 
 ***Innovation areas in socket***
-With the advancement of technology and with the embedding of SDN and IP Addresses innovation in socket is highly required in my opinion. Can we thing of a intelligent socket?
+With the advancement of technology and with the embedding of SDN and IP Addresses innovation in socket is highly required in my opinion. Can we thing of a intelligent socket? A socket is smart
 
