@@ -26,5 +26,8 @@ Raw sockets provide access to ICMP. These sockets are normally datagram oriented
 With the advancement of technology and with the embedding of SDN and IP Addresses innovation in socket is highly required in my opinion. Can we thing of a intelligent socket? 
 
 ***Let's understand the syntax of socket defination and it's parameter***
+
+```bash
 socket.socket(family, type, proto, fileno)
+```
 
