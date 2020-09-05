@@ -28,6 +28,7 @@ With the advancement of technology and with the embedding of SDN and IP Addresse
 ***Let's understand the syntax of socket defination and it's parameter***
 
 ```bash
+import
 socket.socket(family, type, proto, fileno)
 ```
 
