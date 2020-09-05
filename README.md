@@ -31,13 +31,15 @@ With the advancement of technology and with the embedding of SDN and IP Addresse
 import socket
 socket.socket(family, type, proto, fileno)
 ```
-Family. The address family property is used to assign the type of addresses that a socket can communicate with. Only then can the addresses of that type be used with the socket. There are three main options available for this:
+ #### Family ####
+ The address family property is used to assign the type of addresses that a socket can communicate with. Only then can the addresses of that type be used with the socket. There are three main options available for this:
 
   - AF_INET. This family is used with IPV4 addresses. When we first introduced IP addresses, we were talking about IPV4 addresses. IP addresses are most commonly used.
 - AF_INET6 Another address scheme, IPv6, was introduced since IPV4 is limited to about 4 billion addresses which are not sufficient, considering the exponential growth of the Internet. IPV6 provides 340 undecillion addresses (340×1036340\times10^{36}340×10​36​​). It’s slowly being adopted. AF_INET6 is used for IPV6 addresses. We’ll introduce IPV6 more formally in a later lesson.
 
-  - AF_UNIX This family is used for Unix Domain Sockets (UDS), an interprocess communication endpoint for the same host. It’s available on POSIX-compliant systems. Most operating systems today like Windows, Linux and Mac OS are POSIX compliant! So processes on a system can communicate with each other directly through this instead of having to communicate via the network.
- -- Type. The type specifies the transport layer protocol:
+- AF_UNIX This family is used for Unix Domain Sockets (UDS), an interprocess communication endpoint for the same host. It’s available on POSIX-compliant systems. Most operating systems today like Windows, Linux and Mac OS are POSIX compliant! So processes on a system can communicate with each other directly through this instead of having to communicate via the network.
+#### Type ####
+The type specifies the transport layer protocol:
        - SOCK_DGRAM specifies that the application is to use User Datagram Protocol (UDP). Recall that UDP is less reliable but requires no initial connection establishment. We are building these server and client programs pair in UDP.
         - SOCK_STREAM specifies that the application is to use Transmission Control Protocol (TCP). Recall that while TCP requires some initial setup, it’s more reliable than UDP.
 
