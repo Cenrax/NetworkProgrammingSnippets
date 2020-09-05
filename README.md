@@ -40,6 +40,6 @@ socket.socket(family, type, proto, fileno)
 - AF_UNIX This family is used for Unix Domain Sockets (UDS), an interprocess communication endpoint for the same host. It’s available on POSIX-compliant systems. Most operating systems today like Windows, Linux and Mac OS are POSIX compliant! So processes on a system can communicate with each other directly through this instead of having to communicate via the network.
 #### Type ####
 The type specifies the transport layer protocol:
-       - SOCK_DGRAM specifies that the application is to use User Datagram Protocol (UDP). Recall that UDP is less reliable but requires no initial connection establishment. We are building these server and client programs pair in UDP.
-        - SOCK_STREAM specifies that the application is to use Transmission Control Protocol (TCP). Recall that while TCP requires some initial setup, it’s more reliable than UDP.
+ - SOCK_DGRAM specifies that the application is to use User Datagram Protocol (UDP). Recall that UDP is less reliable but requires no initial connection establishment. We are building these server and client programs pair in UDP.
+- SOCK_STREAM specifies that the application is to use Transmission Control Protocol (TCP). Recall that while TCP requires some initial setup, it’s more reliable than UDP.
 
