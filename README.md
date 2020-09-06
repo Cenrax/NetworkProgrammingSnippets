@@ -43,3 +43,4 @@ The type specifies the transport layer protocol:
  - SOCK_DGRAM specifies that the application is to use User Datagram Protocol (UDP). Recall that UDP is less reliable but requires no initial connection establishment. We are building these server and client programs pair in UDP.
 - SOCK_STREAM specifies that the application is to use Transmission Control Protocol (TCP). Recall that while TCP requires some initial setup, it’s more reliable than UDP.
 
+For a basic UDP based client server program you can check out my clientServerUdp program in programs folder
