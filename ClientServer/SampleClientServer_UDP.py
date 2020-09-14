@@ -36,3 +36,4 @@ if __name__ == '__main__':
     function(args.p)
     
     # Open Two termoinal in one terminal write the client program and in the other terminal write the other program
+    # One can also run in different pc
